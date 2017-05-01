@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM ppc64le/alpine:edge
 ENTRYPOINT ["/bin/registrator"]
 
 COPY . /go/src/github.com/gliderlabs/registrator
